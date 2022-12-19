@@ -1,0 +1,28 @@
+endpoint: 'wss://zeitgeist-rpc.dwellir.com:443'
+mock-signature-host: true
+block: 1918957
+db: ./zeitgeist.kusama.db.sqlite
+import-storage:
+  System:
+    Account:
+      - - - dE3pPiRvdKqPD5bUDBu3Xpi83McE3Zf3UG8CbhWBQfvUywd7U
+        - data:
+            free: 1000000000000000
+  Council:
+    Members:
+      - dE1fLRenofs4ss5vmbYkA861qoSXFjTWW6wQXwT5qE7EoL18h
+      - dE31LET4U4bUu8GZd9XjvWS4PSyL6kawHmL11o9gtHvrTfCU2
+      - dE3vHqCTMjjUbirNRTZd7ioECnAFrPS8qN3CXPs3dg4ZEDu7z
+      - dE48WzqUfLrhNxUpcA7mLEPFvzNZV1NS2L6N5mgQnLMUPq4xi
+      - dE4W3DbggVyrVAqMqGfwWWGHL6gxfCdsiyVynzsnYcMsf7uq7
+  TechnicalCommittee:
+    Members:
+      - dE1fLRenofs4ss5vmbYkA861qoSXFjTWW6wQXwT5qE7EoL18h
+      - dE31LET4U4bUu8GZd9XjvWS4PSyL6kawHmL11o9gtHvrTfCU2
+      - dE4W3DbggVyrVAqMqGfwWWGHL6gxfCdsiyVynzsnYcMsf7uq7
+  TechnicalCommitteeMembership:
+    Members:
+      - dE1fLRenofs4ss5vmbYkA861qoSXFjTWW6wQXwT5qE7EoL18h
+      - dE31LET4U4bUu8GZd9XjvWS4PSyL6kawHmL11o9gtHvrTfCU2
+      - dE4W3DbggVyrVAqMqGfwWWGHL6gxfCdsiyVynzsnYcMsf7uq7
+
